@@ -28,6 +28,8 @@ burgerNav.addEventListener('click', e => {
     etarget = e.target;
     if (etarget.innerText == "Tic-Tac" && openTicTac.style.display == "none") {
         openTicTac.style.display = "";
+    } else {
+        openTicTac.style.display = "none";
     }
 
 })

@@ -3,8 +3,8 @@
     justify-content: center;
     align-items: center;
     font-family: 'Play', sans-serif;
-    height: 100vh;
     background: #131416;
+    margin-bottom: 70px;
 }
 
 .joueur1 {
@@ -42,8 +42,8 @@
     font-weight: 600;
     padding: 20px 25px;
     position: relative;
-    top: 100px;
-    left: 262px;
+    top: 60px;
+    left: 245px;
     transition: all 1s ease-in-out;
     text-align: center;
     animation: anim1 5s infinite;
@@ -74,8 +74,8 @@ h3 {
 }
 
 .container-tic-tac {
-    max-width: 710px;
-    max-height: 800px;
+    max-width: 450px;
+    max-height: 500px;
     margin: 20px auto;
     /* Modified to auto */
     background: #131415;
