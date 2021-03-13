@@ -2,9 +2,7 @@ const projectNav = document.getElementById("burger-menu");
 const burgerNav = document.getElementById('burger-nav');
 const closeBTN = document.querySelector(".fa-window-close");
 const projectBTN = document.querySelectorAll("#projects button");
-let bNavOpen = false;
-// const ticTacBtn = document.querySelector('#burger-menu .btn :first-of-type');
-const gameNav = document
+const openTicTac = document.getElementById('tic-tac-open');
 
 // NavOpen
 projectNav.addEventListener('click', e => {
@@ -17,14 +15,14 @@ projectNav.addEventListener('click', e => {
 
     } else {
         burgerNav.style.display = "none";
-        projectNav.className = "fas fa-bars"
-        bNavOpen = false;
+        projectNav.className = "fas fa-bars";
+        openTicTac.style.display = "none";
+
     }
 })
 
 // Project open
 burgerNav.addEventListener('click', e => {
-    const openTicTac = document.getElementById('tic-tac-open');
     etarget = e.target;
     if (etarget.innerText == "Tic-Tac" && openTicTac.style.display == "none") {
         openTicTac.style.display = "";

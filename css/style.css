@@ -46,9 +46,6 @@ classes
     cursor: pointer;
 }
 
-.hidden {
-    display: none;
-}
 
 .btn:hover {
     background-color: black;
@@ -56,6 +53,11 @@ classes
 
 .see-through {
     min-width: 100%;
+}
+
+.align-right {
+    display: flex;
+    text-align: right;
 }
 
 /* page sections */
@@ -97,6 +99,10 @@ header h1 {
     text-shadow: 0.4rem 0.3rem 0.7rem #9914d6;
 }
 
+header h3 {
+    text-align: center;
+}
+
 header nav ul {
     display: flex;
 
@@ -125,7 +131,13 @@ section 1
 ************* */
 main section:first-of-type {
     display: flex;
+    flex-wrap: wrap;
+    padding-left: 30px;
+    padding-right: 30px;
+}
 
+main section:first-of-type p {
+    max-width: 420px;
 }
 
 main section:first-of-type img {
@@ -133,7 +145,7 @@ main section:first-of-type img {
 }
 
 main section:first-of-type article img {
-    width: 20%
+    max-width: 20%
 }
 
 /* ***********
@@ -141,12 +153,19 @@ section 2
 ************* */
 main section:nth-child(2) {
     display: flex;
-    text-align: right;
-    align-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 30px;
+    padding-right: 30px;
+
 }
 
 main section:nth-child(2) img {
     max-height: 300px;
+    max-width: 300px;
+}
+
+main section:nth-child(2) article {
+    max-width: 420px;
 }
 
 #burger-menu {
