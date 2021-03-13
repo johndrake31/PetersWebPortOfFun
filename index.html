@@ -53,10 +53,10 @@
         <div class="container-al">
             <i id="burger-menu" class="fas fa-bars"> Click Me</i>
             <nav id="burger-nav" style="display: none;">
-                <button class="btn-pm">Tic-Tac</button>
-                <button class="btn-pm">Gym-Fitness</button>
-                <button class="btn-pm">Image Search</button>
-                <button class="btn-pm">Pagination</button>
+                <button class="btn-pm"><a href="#new-game">Tic-Tac</a></button>
+                <button class="btn-pm"><a href="">Gym-Fitness</a></button>
+                <button class="btn-pm"><a href="">Image Search</a></button>
+                <button class="btn-pm"><a href="">Pagination</a></button>
             </nav>
         </div>
 
@@ -67,7 +67,11 @@
                     <div class="row">
                         <div class="col">
                             <h1>Morpion</h1>
+                            <div id="player-turn"></div>
                             <div id="result"></div>
+                            <div id="tic-tac-root">
+                                <div id="resultMessage"></div>
+                            </div>
                             <table class="table-style">
                                 <tr>
                                     <td value="0"></td>
@@ -86,15 +90,12 @@
                                 </tr>
                             </table>
                             <button id="new-game">New Game</button>
-                            <div id="player-turn"></div>
                             <div id="game-stats" style="display: none;">
                                 <div id="p1"></div>
                                 <div id="p2"></div>
                                 <div id="total"></div>
                             </div>
-                            <div id="tic-tac-root">
-                                <div id="resultMessage"></div>
-                            </div>
+                            
                         </div>
                     </div>
                     <!-- Section end Tic-Tac -->

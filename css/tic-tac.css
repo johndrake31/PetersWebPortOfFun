@@ -19,28 +19,23 @@
      margin-bottom: 70px;
  }
 
- .joueur1 {
-     color: #2cceff;
+ .joueur1,
+ .joueur2 {
      text-align: center;
-     font-family: 'Play', sans-serif;
+     font-family: 'Play',
+         sans-serif;
      font-size: 1.6rem;
      font-weight: 500;
      width: 300px;
-     position: absolute;
-     top: 200px;
-     left: -50px;
+ }
+
+ .joueur1 {
+     color: #2cceff;
+
  }
 
  .joueur2 {
      color: #d737ff;
-     text-align: center;
-     font-family: 'Play', sans-serif;
-     font-size: 1.6rem;
-     font-weight: 500;
-     width: 300px;
-     position: absolute;
-     top: 200px;
-     right: -50px;
  }
 
  /* Button new-game */
@@ -53,12 +48,12 @@
      font-size: 1.3rem;
      font-weight: 600;
      padding: 20px 25px;
-     position: relative;
-     top: 60px;
-     left: 245px;
      transition: all 1s ease-in-out;
      text-align: center;
      animation: anim1 5s infinite;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     margin-left: 20px;
  }
 
  #new-game:hover {
@@ -80,7 +75,7 @@
 
  .container-tic-tac {
      max-width: 450px;
-     max-height: 500px;
+     min-height: 500px;
      margin: 20px auto;
      /* Modified to auto */
      background: #131415;
@@ -108,15 +103,16 @@
 
  .table-style {
      /* outer table styles */
-     width: 300px;
-     height: 300px;
+     width: 270px;
+     height: 270px;
      border: 8px solid #9914d6;
      margin: auto;
+
  }
 
  td {
-     width: 100px;
-     height: 100px;
+     width: 90px;
+     height: 90px;
      border: 5px solid #9914d6;
      text-align: center;
      font-size: 2rem;
