@@ -173,8 +173,8 @@ main section:nth-child(2) article {
 
 @media screen and (max-width: 780px) {
     main section:first-of-type img {
-        max-width: 40px;
-        height: auto;
+        max-width: 70px;
+        max-height: 70px;
     }
 
     main section:nth-child(2) {
