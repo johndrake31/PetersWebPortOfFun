@@ -172,6 +172,10 @@ main section:nth-child(2) article {
 }
 
 @media screen and (max-width: 780px) {
+    main section:first-of-type img {
+        max-width: 40px;
+    }
+
     main section:nth-child(2) {
         flex-wrap: wrap-reverse;
     }
