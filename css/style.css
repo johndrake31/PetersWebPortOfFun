@@ -35,29 +35,26 @@ classes
     margin-right: auto;
 }
 
+.container-al {
+    max-width: 1060px;
+    margin-right: auto;
+}
+
 .btn-pm {
     background-color: #F9A826;
     color: white;
     border: none;
-    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.2);
-    padding: 10px 15px;
     border-radius: 12px;
+    margin-bottom: 5px;
+    padding: 10px 15px;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.2);
     transition: .3s;
     cursor: pointer;
 }
 
 
-.btn:hover {
+.btn-pm:hover {
     background-color: black;
-}
-
-.see-through {
-    min-width: 100%;
-}
-
-.align-right {
-    display: flex;
-    text-align: right;
 }
 
 /* page sections */
@@ -129,11 +126,13 @@ main p {
 /* ***********
 section 1
 ************* */
-main section:first-of-type {
+main section:first-of-type,
+main section:nth-child(2) {
     display: flex;
     flex-wrap: wrap;
     padding-left: 30px;
     padding-right: 30px;
+    justify-content: space-between;
 }
 
 main section:first-of-type p {
@@ -141,40 +140,42 @@ main section:first-of-type p {
 }
 
 main section:first-of-type img {
-    max-height: 300px;
-}
-
-main section:first-of-type article img {
-    max-width: 20%
+    max-width: 40%;
 }
 
 /* ***********
 section 2
 ************* */
-main section:nth-child(2) {
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 30px;
-    padding-right: 30px;
-
-}
 
 main section:nth-child(2) img {
-    max-height: 300px;
-    max-width: 300px;
+    max-width: 40%;
 }
 
 main section:nth-child(2) article {
     max-width: 420px;
 }
 
+/* Burger menu controls */
+
 #burger-menu {
     font-size: 25px;
     cursor: pointer;
     color: #F9A826;
-
+    margin-right: 30px;
+    margin-bottom: 20px;
+    margin-left: 30px;
 }
 
+#burger-nav {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+@media screen and (max-width: 780px) {
+    main section:nth-child(2) {
+        flex-wrap: wrap-reverse;
+    }
+}
 
 /* *********** END OF MAIN ************* */
 
