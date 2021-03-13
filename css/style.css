@@ -91,7 +91,10 @@ header h1 {
     margin-top: 40px;
     font-weight: 900;
     letter-spacing: 2px;
-
+    text-align: center;
+    padding-bottom: 15px;
+    color: rgb(221, 217, 217);
+    text-shadow: 0.4rem 0.3rem 0.7rem #9914d6;
 }
 
 header nav ul {
@@ -109,6 +112,8 @@ header nav ul li {
 /* *********** MAIN ************* */
 main {
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 main p {
@@ -120,6 +125,7 @@ section 1
 ************* */
 main section:first-of-type {
     display: flex;
+
 }
 
 main section:first-of-type img {

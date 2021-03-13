@@ -56,20 +56,13 @@
     font-size: 1.6rem;
 }
 
-h1 {
-    padding-left: 15px;
-    text-align: center;
-    padding-bottom: 15px;
-    color: #ddd9d9;
-    ;
-    text-shadow: 0.4rem 0.3rem 0.7rem #9914d6;
-}
 
-h2 {
+
+#tic-tac-open h2 {
     text-align: center;
 }
 
-h3 {
+#tic-tac-open h3 {
     text-align: center;
 }
 
