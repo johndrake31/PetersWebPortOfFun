@@ -17,9 +17,9 @@
     <header>
         <nav>
             <ul>
-                <li><a href="">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="contact">Contact</a></li>
             </ul>
         </nav>
         <h1>
@@ -32,29 +32,35 @@
 
     </header>
     <main>
-        <section class="container">
-            <article id="about">
+        <!-- Section 1 about me -->
+        <section id="about" class="container">
+            <article>
                     <h2>About Me:</h2>
                     <h3>Peter Programmer</h3>
-                    <p>Hi I started my programming journey back in 2019. <br> Along the way I have learned and I am still learning a lot about the world of programming. This is my page of some fun and random programming projects I have done.</p>
+                    <p>I am a lover of coffee and of challanging myself to grow and improve. <br><br>
+                        I started my programming journey back in 2017 as a total newbie, working with wordpress, and creating some websites for friends and non-profits. <br><br> In 2019 I got a little more serious and signed up for online self paced classes. <br> Along the way I have learned and I am still learning a lot about the world of programming. This is my page of some fun and random programming projects I have done.</p>
             </article>
-            <img src="./img/undraw_Hello_qnas.png" alt="computer and coffee">
         </section>
+        <!-- Section 1 End -->
 
+        <!-- Section 2 My projects I did for fun -->
         <section  id="projects" class="container">
             <img src="./img/Web development _Outline.svg" alt="computer and coffee">
             <article>
                     <h2>My Projects:</h2>
                     <h3>Random Fun</h3>
-                    <p>Hey welcome to my page of random projects. These are project I had to do, or wanted to do. Coding is fun and we do our best work when we find the challanges interesting and cool friends to work with.</p>
+                    <p>Hey welcome to my page of random projects. These are project I had to do, or wanted to do. <br> Coding is the most fun and we do our best work when we find the challanges interesting and cool friends to work with.</p>
             </article>
         </section>
 
+            <!-- Section 2 
+                burger nav with project list 
+            -->
         <div class="container-al">
             <i id="burger-menu" class="fas fa-bars"> Click Me</i>
             <nav id="burger-nav" style="display: none;">
-                <button class="btn-pm"><a href="#new-game">Tic-Tac</a></button>
-                <button class="btn-pm"><a href="">Gym-Fitness</a></button>
+                <button class="btn-pm"><a href="#tic-title">Tic-Tac</a></button>
+                <button class="btn-pm"><a href="./html/time_box.html">Site Time Box</a></button>
                 <button class="btn-pm"><a href="">Image Search</a></button>
                 <button class="btn-pm"><a href="">Pagination</a></button>
             </nav>
@@ -62,11 +68,11 @@
 
 
 
-        <!-- section start tic-tac -->
-                 <div id="tic-tac-open" style="display: none;"  class="container-tic-tac">
+        <!-- section 2 start tic-tac -->
+                <div id="tic-tac-open" style="display: none;"  class="container-tic-tac">
                     <div class="row">
                         <div class="col">
-                            <h1>Morpion</h1>
+                            <h1 id="tic-title">Morpion</h1>
                             <div id="player-turn"></div>
                             <div id="result"></div>
                             <div id="tic-tac-root">
@@ -98,7 +104,22 @@
                             
                         </div>
                     </div>
-                    <!-- Section end Tic-Tac -->
+                </div>
+        <!-- Section 2 end Tic-Tac -->
+
+        <!-- Section 3 Contact Me -->
+        <section id="contact" class="container">
+            <article class="d-flex-pm">
+                <h2 class="flex-1-pm">Contact Me</h2>
+                <div class="flex-1-pm img-text-overlay">
+                    <article>
+                        <h4><em>Peter Programmer</em> </h4>
+                        <h4>Tel: <em>+33 (0)0 11 22 33 44</em> </h4>
+                        <h4>Email: <em>something@gmail.com</em> </h4>
+                    </article>
+                </div>
+            </article>
+        </section>
     </main>
     <footer>
     

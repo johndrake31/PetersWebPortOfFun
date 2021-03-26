@@ -1,0 +1,157 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+h1,
+h2 {
+    font-family: 'Amatic SC', cursive;
+}
+
+p,
+ul {
+    line-height: 150%;
+}
+
+header {
+    background-image: linear-gradient(rgba(3, 27, 59, 0.216),
+            rgba(255, 255, 255, 0.127)), url(/img/pyramides.jpeg);
+    text-align: center;
+    background-size: cover;
+    /* min-height: 400px; */
+    color: white;
+    background-position: center;
+    padding: 150px 30px;
+
+}
+
+header h1 {
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+
+header a {
+    color: white;
+    margin-left: 5px;
+}
+
+/* *************** Main Content **************** */
+
+/* *************** 
+section 1
+**************** */
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#destination {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#destination img {
+    width: 30%;
+    margin-right: 150px;
+}
+
+#destination article {
+    display: flex;
+    flex-direction: column;
+    color: rgba(43, 37, 37, 0.935);
+}
+
+#destination ul,
+p {}
+
+/* *************** 
+section 2
+**************** */
+
+
+#formules h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#formules div {
+    display: flex;
+}
+
+#formules div article {
+    border: 1.5px solid darksalmon;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 20px;
+    transition: .75s;
+}
+
+#formules div article:hover {
+    background-color: black;
+    color: white;
+}
+
+#formules div article h3 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: normal;
+    font-size: 21px;
+}
+
+#formules div article hr {
+    margin-top: 20px;
+    border-top: 1px solid black;
+    width: 95%;
+}
+
+.prix {
+    display: flex;
+}
+
+.nombre {
+    font-size: 40px;
+    font-weight: 400;
+    color: darksalmon;
+}
+
+.euros {
+    padding-top: 20px;
+}
+
+/* *************** 
+section 3
+**************** */
+#concept {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+#concept img {
+    width: 30%;
+    margin-left: 150px;
+}
+
+#concept article p {
+    margin-bottom: 40px;
+}
+
+#concept article a {
+    border: 1.5px solid;
+    border-color: darksalmon;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: lighter;
+    background-color: white;
+    color: darksalmon;
+    border-radius: 2px;
+    transition: .75s;
+}
+
+#concept article a:hover {
+    background-color: darksalmon;
+    color: white;
+}
