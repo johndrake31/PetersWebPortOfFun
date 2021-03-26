@@ -12,6 +12,7 @@ projectNav.addEventListener('click', e => {
         burgerNav.style.display = "";
         projectNav.className = "fas fa-window-close"
         bNavOpen = true;
+        projectNav.innerText = "";
 
     } else {
         burgerNav.style.display = "none";
