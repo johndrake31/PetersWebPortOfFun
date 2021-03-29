@@ -3,6 +3,23 @@ const burgerNav = document.getElementById('burger-nav');
 const closeBTN = document.querySelector(".fa-window-close");
 const projectBTN = document.querySelectorAll("#projects button");
 const openTicTac = document.getElementById('tic-tac-open');
+const popUp = document.getElementById('pop-up-btn');
+const popUpClose = document.getElementById('pop-up-close');
+const myPopUp = document.getElementById('my-pop-up');
+
+
+//HTML ABOUT ME SECTION
+
+popUp.addEventListener('click', () => {
+    if (myPopUp.style.display == 'none') {
+        myPopUp.style.display = 'block';
+    } else {
+        myPopUp.style.display = 'none';
+    }
+})
+popUpClose.addEventListener('click', () => {
+    myPopUp.style.display = 'none';
+})
 
 // NavOpen
 projectNav.addEventListener('click', e => {

@@ -76,7 +76,7 @@ classes
 
 
 .flex-1-pm {
-    width: 45%;
+    max-width: 45%;
 }
 
 /* page sections */

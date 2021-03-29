@@ -1,0 +1,67 @@
+.pop-up {
+    display: none;
+    position: fixed;
+    right: auto;
+    left: auto;
+    top: 50px;
+
+    z-index: 9;
+}
+
+h3 {
+    display: inline;
+    max-width: 200px;
+}
+
+#pop-up-close {
+    color: rgb(91, 67, 44);
+}
+
+#pop-up-close:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.pop-up-open {
+    background-image:
+        linear-gradient(to right,
+            #f9a826a2,
+            rgba(0, 0, 0, 0.476)),
+        url(../img/nathan-dumlao-KixfBEdyp64-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    min-width: 50%;
+    max-width: 700px;
+    min-height: auto;
+    padding: 10px;
+    background-color: white;
+    color: white;
+    box-shadow: 0 3px 7px rgba(255, 255, 255, 0.422);
+}
+
+
+.my-image {
+    border-radius: 12px;
+    min-width: 172px;
+    min-height: 172px;
+}
+
+.pop-up-open p {}
+
+.flex-ct article:first-of-type {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    padding-left: 20px;
+}
+
+.flex-ct article:last-of-type {
+    padding-top: 50px;
+}
+
+.flex-ct {
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-end;
+}
